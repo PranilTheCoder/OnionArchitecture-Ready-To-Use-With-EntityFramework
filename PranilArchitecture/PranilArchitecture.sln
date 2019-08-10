@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PranilArchitecture.Web", "PranilArchitecture.Web.csproj", "{691968E3-8F61-48E4-83C7-3E75E28CF25D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PranilArchitecture.Tests", "..\PranilArchitecture.Tests\PranilArchitecture.Tests.csproj", "{E1A7B494-10B0-47B6-81BA-E15E4CA6F3E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PranilArchitecture.Data", "..\PranilArchitecture.Data\PranilArchitecture.Data.csproj", "{9B6DEB05-4342-4CB0-8BA9-0D5265744BD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PranilArchitecture.Resolver", "..\PranilArchitecture.Resolver\PranilArchitecture.Resolver.csproj", "{DF88D63D-96BA-4823-AF51-B99958682CCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PranilArchitecture.Entities", "..\PranilArchitecture.Entities\PranilArchitecture.Entities.csproj", "{5DB8E54B-4E63-4F83-976A-003293D91CDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PranilArchitecture.Service", "..\PranilArchitecture.Service\PranilArchitecture.Service.csproj", "{D51821C2-8FA1-4FD7-A801-4AEA496F1397}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{49521D42-ACC8-4B8F-B69A-22790B0B3AA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{3214CE70-B781-44D8-8E4C-4C0B358915FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{691968E3-8F61-48E4-83C7-3E75E28CF25D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{691968E3-8F61-48E4-83C7-3E75E28CF25D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{691968E3-8F61-48E4-83C7-3E75E28CF25D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{691968E3-8F61-48E4-83C7-3E75E28CF25D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1A7B494-10B0-47B6-81BA-E15E4CA6F3E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1A7B494-10B0-47B6-81BA-E15E4CA6F3E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1A7B494-10B0-47B6-81BA-E15E4CA6F3E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1A7B494-10B0-47B6-81BA-E15E4CA6F3E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B6DEB05-4342-4CB0-8BA9-0D5265744BD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B6DEB05-4342-4CB0-8BA9-0D5265744BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B6DEB05-4342-4CB0-8BA9-0D5265744BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B6DEB05-4342-4CB0-8BA9-0D5265744BD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF88D63D-96BA-4823-AF51-B99958682CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF88D63D-96BA-4823-AF51-B99958682CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF88D63D-96BA-4823-AF51-B99958682CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF88D63D-96BA-4823-AF51-B99958682CCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DB8E54B-4E63-4F83-976A-003293D91CDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB8E54B-4E63-4F83-976A-003293D91CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB8E54B-4E63-4F83-976A-003293D91CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB8E54B-4E63-4F83-976A-003293D91CDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D51821C2-8FA1-4FD7-A801-4AEA496F1397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D51821C2-8FA1-4FD7-A801-4AEA496F1397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D51821C2-8FA1-4FD7-A801-4AEA496F1397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D51821C2-8FA1-4FD7-A801-4AEA496F1397}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B6DEB05-4342-4CB0-8BA9-0D5265744BD1} = {3214CE70-B781-44D8-8E4C-4C0B358915FD}
+		{DF88D63D-96BA-4823-AF51-B99958682CCE} = {3214CE70-B781-44D8-8E4C-4C0B358915FD}
+		{5DB8E54B-4E63-4F83-976A-003293D91CDD} = {49521D42-ACC8-4B8F-B69A-22790B0B3AA0}
+		{D51821C2-8FA1-4FD7-A801-4AEA496F1397} = {3214CE70-B781-44D8-8E4C-4C0B358915FD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2E2CDBB-074E-44FC-B333-20C20C8C8ECF}
+	EndGlobalSection
+EndGlobal
