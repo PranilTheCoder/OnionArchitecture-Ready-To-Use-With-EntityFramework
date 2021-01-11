@@ -29,5 +29,12 @@ namespace PranilArchitecture.Controllers
 
             return View();
         }
+
+        public ActionResult Help()
+        {
+            ViewBag.Message = "Your application Help page.";
+
+            return View();
+        }
     }
 }
